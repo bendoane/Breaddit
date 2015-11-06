@@ -3,6 +3,11 @@ class ArticlesController < ApplicationController
 
   # GET /articles
   # GET /articles.json
+
+  def rise
+  end
+
+
   def index
     @articles = Article.all
   end
@@ -56,7 +61,7 @@ class ArticlesController < ApplicationController
   def destroy
     @article.destroy
     respond_to do |format|
-      format.html { redirect_to articles_url, notice: 'Article was successfully destroyed.' }
+      format.html { redirect_to articles_url, notice: 'You threw out that bread.' }
       format.json { head :no_content }
     end
   end
