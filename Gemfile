@@ -45,3 +45,4 @@ group :development do
   gem 'spring'
 end
 
+gem 'authlogic', '~> 3.4', '>= 3.4.6'
