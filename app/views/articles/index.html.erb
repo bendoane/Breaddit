@@ -22,7 +22,7 @@
       <% @articles.each do |article| %>
         <tr>
           <div class="rorf">
-            <td><%= button_to 'Rise', upvote_path %>
+            <td><%= button_to '+1 Rise', upvote_path(:id)%>
             <td><%= link_to 'Flatten' %>
           </div>
           <td><%= article.title %></td>
