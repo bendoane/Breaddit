@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @baker.username %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @baker.email %>
+</p>
+
+<p>
+  <strong>Crypted password:</strong>
+  <%= @baker.crypted_password %>
+</p>
+
+<p>
+  <strong>Password salt:</strong>
+  <%= @baker.password_salt %>
+</p>
+
+<p>
+  <strong>Persistence token:</strong>
+  <%= @baker.persistence_token %>
+</p>
+
+<%= link_to 'Edit', edit_baker_path(@baker) %> |
+<%= link_to 'Back', bakers_path %>
