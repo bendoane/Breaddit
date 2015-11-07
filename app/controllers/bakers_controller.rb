@@ -28,7 +28,7 @@ class BakersController < ApplicationController
 
     respond_to do |format|
       if @baker.save
-        format.html { redirect_to @baker, notice: 'Baker was successfully created.' }
+        format.html { redirect_to @baker, notice: 'You have been added to our list of Bakers!' }
         format.json { render :show, status: :created, location: @baker }
       else
         format.html { render :new }

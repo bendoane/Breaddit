@@ -6032,3 +6032,491 @@ NameError (undefined local variable or method `act_as_authentic' for #<Class:0x0
   Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
   Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (6.1ms)
   Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (84.6ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 18:26:02 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (117.7ms)
+Completed 200 OK in 246ms (Views: 231.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/upvote.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-07 18:26:02 -0500
+
+
+Started GET "/assets/bakers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:26:02 -0500
+
+
+Started GET "/assets/upvote.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:26:02 -0500
+
+
+Started GET "/assets/bakers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-07 18:26:02 -0500
+
+
+Started GET "/bakers/new" for ::1 at 2015-11-07 18:26:11 -0500
+Processing by BakersController#new as HTML
+  Rendered bakers/_form.html.erb (18.4ms)
+  Rendered bakers/new.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 94ms (Views: 86.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/bakers/new" for ::1 at 2015-11-07 18:26:13 -0500
+Processing by BakersController#new as HTML
+  Rendered bakers/_form.html.erb (3.4ms)
+  Rendered bakers/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 69ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-ec0619fb5358956eb81ba98905c497eac9086270950e365041dc5f6a9e70f942.css?body=1" for ::1 at 2015-11-07 18:26:13 -0500
+
+
+Started GET "/assets/bakers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-07 18:26:13 -0500
+
+
+Started GET "/assets/scaffolds.self-657e287ebfb3c62b0910441868365dd1b4e165f2f4b6bec3185cfcbb7948ab10.css?body=1" for ::1 at 2015-11-07 18:26:13 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-07 18:26:13 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-07 18:26:13 -0500
+
+
+Started GET "/assets/upvote.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-07 18:26:13 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-07 18:26:13 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-07 18:26:13 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:26:13 -0500
+
+
+Started GET "/assets/bakers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:26:13 -0500
+
+
+Started GET "/assets/upvote.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:26:13 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-07 18:26:13 -0500
+
+
+Started GET "/" for ::1 at 2015-11-07 18:26:15 -0500
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 52ms (Views: 50.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 18:26:52 -0500
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/articles.self-ec0619fb5358956eb81ba98905c497eac9086270950e365041dc5f6a9e70f942.css?body=1" for ::1 at 2015-11-07 18:26:52 -0500
+
+
+Started GET "/assets/bakers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-07 18:26:52 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-07 18:26:52 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-07 18:26:52 -0500
+
+
+Started GET "/assets/scaffolds.self-657e287ebfb3c62b0910441868365dd1b4e165f2f4b6bec3185cfcbb7948ab10.css?body=1" for ::1 at 2015-11-07 18:26:52 -0500
+
+
+Started GET "/assets/upvote.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-07 18:26:52 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-07 18:26:52 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-07 18:26:52 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:26:52 -0500
+
+
+Started GET "/assets/bakers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:26:52 -0500
+
+
+Started GET "/assets/upvote.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:26:52 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-07 18:26:52 -0500
+
+
+Started GET "/assets/bread-background-c8aa2b4023d3e8a575d79b9ca8e95a53198f39287f1f9c1e871564a3c142b058.png" for ::1 at 2015-11-07 18:26:52 -0500
+
+
+Started GET "/bakers/new" for ::1 at 2015-11-07 18:26:53 -0500
+Processing by BakersController#new as HTML
+  Rendered bakers/_form.html.erb (2.0ms)
+  Rendered bakers/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bakers/new" for ::1 at 2015-11-07 18:26:55 -0500
+Processing by BakersController#new as HTML
+  Rendered bakers/_form.html.erb (3.6ms)
+  Rendered bakers/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 57ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bakers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-07 18:26:55 -0500
+
+
+Started GET "/assets/articles.self-ec0619fb5358956eb81ba98905c497eac9086270950e365041dc5f6a9e70f942.css?body=1" for ::1 at 2015-11-07 18:26:55 -0500
+
+
+Started GET "/assets/scaffolds.self-657e287ebfb3c62b0910441868365dd1b4e165f2f4b6bec3185cfcbb7948ab10.css?body=1" for ::1 at 2015-11-07 18:26:55 -0500
+
+
+Started GET "/assets/upvote.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-07 18:26:55 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-07 18:26:55 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-07 18:26:55 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-07 18:26:55 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-07 18:26:55 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:26:55 -0500
+
+
+Started GET "/assets/bakers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:26:55 -0500
+
+
+Started GET "/assets/upvote.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:26:55 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-07 18:26:55 -0500
+
+
+Started GET "/bakers/new" for ::1 at 2015-11-07 18:30:43 -0500
+Processing by BakersController#new as HTML
+  Rendered bakers/_form.html.erb (2.1ms)
+  Rendered bakers/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 43ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-ec0619fb5358956eb81ba98905c497eac9086270950e365041dc5f6a9e70f942.css?body=1" for ::1 at 2015-11-07 18:30:43 -0500
+
+
+Started GET "/assets/bakers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-07 18:30:43 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-07 18:30:43 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-07 18:30:43 -0500
+
+
+Started GET "/assets/scaffolds.self-657e287ebfb3c62b0910441868365dd1b4e165f2f4b6bec3185cfcbb7948ab10.css?body=1" for ::1 at 2015-11-07 18:30:43 -0500
+
+
+Started GET "/assets/upvote.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-07 18:30:43 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-07 18:30:43 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-07 18:30:43 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:30:43 -0500
+
+
+Started GET "/assets/bakers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:30:43 -0500
+
+
+Started GET "/assets/upvote.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:30:43 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-07 18:30:43 -0500
+
+
+Started GET "/bakers/new" for ::1 at 2015-11-07 18:35:32 -0500
+Processing by BakersController#new as HTML
+  Rendered bakers/_form.html.erb (4.8ms)
+  Rendered bakers/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-ec0619fb5358956eb81ba98905c497eac9086270950e365041dc5f6a9e70f942.css?body=1" for ::1 at 2015-11-07 18:35:32 -0500
+
+
+Started GET "/assets/scaffolds.self-657e287ebfb3c62b0910441868365dd1b4e165f2f4b6bec3185cfcbb7948ab10.css?body=1" for ::1 at 2015-11-07 18:35:32 -0500
+
+
+Started GET "/assets/bakers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-07 18:35:32 -0500
+
+
+Started GET "/assets/upvote.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-07 18:35:32 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-07 18:35:32 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-07 18:35:32 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-07 18:35:32 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-07 18:35:32 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:35:32 -0500
+
+
+Started GET "/assets/bakers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:35:32 -0500
+
+
+Started GET "/assets/upvote.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:35:32 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-07 18:35:32 -0500
+
+
+Started GET "/bakers/new" for ::1 at 2015-11-07 18:42:16 -0500
+Processing by BakersController#new as HTML
+  Rendered bakers/_form.html.erb (2.6ms)
+  Rendered bakers/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 146ms (Views: 144.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bakers.self-6d4ec3c7841d2271138ae1ffe39e0b93627796a519bf67a5d554e327b14d1327.css?body=1" for ::1 at 2015-11-07 18:42:16 -0500
+
+
+Started GET "/assets/scaffolds.self-657e287ebfb3c62b0910441868365dd1b4e165f2f4b6bec3185cfcbb7948ab10.css?body=1" for ::1 at 2015-11-07 18:42:16 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-07 18:42:16 -0500
+
+
+Started GET "/assets/articles.self-ec0619fb5358956eb81ba98905c497eac9086270950e365041dc5f6a9e70f942.css?body=1" for ::1 at 2015-11-07 18:42:16 -0500
+
+
+Started GET "/assets/upvote.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-07 18:42:16 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-07 18:42:16 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-07 18:42:16 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-07 18:42:16 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:42:16 -0500
+
+
+Started GET "/assets/bakers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:42:16 -0500
+
+
+Started GET "/assets/upvote.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:42:16 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-07 18:42:16 -0500
+
+
+Started GET "/bakers/new" for ::1 at 2015-11-07 18:43:03 -0500
+Processing by BakersController#new as HTML
+  Rendered bakers/_form.html.erb (2.3ms)
+  Rendered bakers/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 40ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bakers/new" for ::1 at 2015-11-07 18:43:05 -0500
+Processing by BakersController#new as HTML
+  Rendered bakers/_form.html.erb (1.5ms)
+  Rendered bakers/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bakers/new" for ::1 at 2015-11-07 18:45:34 -0500
+Processing by BakersController#new as HTML
+  Rendered bakers/_form.html.erb (1.7ms)
+  Rendered bakers/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-ec0619fb5358956eb81ba98905c497eac9086270950e365041dc5f6a9e70f942.css?body=1" for ::1 at 2015-11-07 18:45:34 -0500
+
+
+Started GET "/assets/upvote.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-07 18:45:34 -0500
+
+
+Started GET "/assets/bakers.self-6d4ec3c7841d2271138ae1ffe39e0b93627796a519bf67a5d554e327b14d1327.css?body=1" for ::1 at 2015-11-07 18:45:34 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-07 18:45:34 -0500
+
+
+Started GET "/assets/scaffolds.self-657e287ebfb3c62b0910441868365dd1b4e165f2f4b6bec3185cfcbb7948ab10.css?body=1" for ::1 at 2015-11-07 18:45:34 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-07 18:45:34 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-07 18:45:34 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-07 18:45:34 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:45:34 -0500
+
+
+Started GET "/assets/bakers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:45:34 -0500
+
+
+Started GET "/assets/upvote.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:45:34 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-07 18:45:34 -0500
+
+
+Started GET "/bakers/new" for ::1 at 2015-11-07 18:45:48 -0500
+Processing by BakersController#new as HTML
+  Rendered bakers/_form.html.erb (2.0ms)
+  Rendered bakers/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bakers.self-6d4ec3c7841d2271138ae1ffe39e0b93627796a519bf67a5d554e327b14d1327.css?body=1" for ::1 at 2015-11-07 18:45:48 -0500
+
+
+Started GET "/assets/articles.self-ec0619fb5358956eb81ba98905c497eac9086270950e365041dc5f6a9e70f942.css?body=1" for ::1 at 2015-11-07 18:45:48 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-07 18:45:48 -0500
+
+
+Started GET "/assets/scaffolds.self-657e287ebfb3c62b0910441868365dd1b4e165f2f4b6bec3185cfcbb7948ab10.css?body=1" for ::1 at 2015-11-07 18:45:48 -0500
+
+
+Started GET "/assets/upvote.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-07 18:45:48 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-07 18:45:48 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-07 18:45:48 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-07 18:45:48 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:45:48 -0500
+
+
+Started GET "/assets/bakers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:45:48 -0500
+
+
+Started GET "/assets/upvote.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:45:48 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-07 18:45:48 -0500
+
+
+Started GET "/bakers/new" for ::1 at 2015-11-07 18:45:57 -0500
+Processing by BakersController#new as HTML
+  Rendered bakers/_form.html.erb (2.9ms)
+  Rendered bakers/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 39ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-ec0619fb5358956eb81ba98905c497eac9086270950e365041dc5f6a9e70f942.css?body=1" for ::1 at 2015-11-07 18:45:57 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-07 18:45:57 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-07 18:45:57 -0500
+
+
+Started GET "/assets/bakers.self-6d4ec3c7841d2271138ae1ffe39e0b93627796a519bf67a5d554e327b14d1327.css?body=1" for ::1 at 2015-11-07 18:45:57 -0500
+
+
+Started GET "/assets/upvote.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-07 18:45:57 -0500
+
+
+Started GET "/assets/scaffolds.self-657e287ebfb3c62b0910441868365dd1b4e165f2f4b6bec3185cfcbb7948ab10.css?body=1" for ::1 at 2015-11-07 18:45:57 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-07 18:45:57 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:45:57 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-07 18:45:57 -0500
+
+
+Started GET "/assets/bakers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:45:57 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-07 18:45:57 -0500
+
+
+Started GET "/assets/upvote.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:45:57 -0500
+
+
+Started GET "/bakers/new" for ::1 at 2015-11-07 18:46:02 -0500
+Processing by BakersController#new as HTML
+  Rendered bakers/_form.html.erb (2.8ms)
+  Rendered bakers/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-ec0619fb5358956eb81ba98905c497eac9086270950e365041dc5f6a9e70f942.css?body=1" for ::1 at 2015-11-07 18:46:02 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-07 18:46:02 -0500
+
+
+Started GET "/assets/scaffolds.self-657e287ebfb3c62b0910441868365dd1b4e165f2f4b6bec3185cfcbb7948ab10.css?body=1" for ::1 at 2015-11-07 18:46:02 -0500
+
+
+Started GET "/assets/upvote.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-07 18:46:02 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-07 18:46:02 -0500
+
+
+Started GET "/assets/bakers.self-6d4ec3c7841d2271138ae1ffe39e0b93627796a519bf67a5d554e327b14d1327.css?body=1" for ::1 at 2015-11-07 18:46:02 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-07 18:46:02 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-07 18:46:02 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:46:02 -0500
+
+
+Started GET "/assets/bakers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:46:02 -0500
+
+
+Started GET "/assets/upvote.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-07 18:46:02 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-07 18:46:02 -0500
